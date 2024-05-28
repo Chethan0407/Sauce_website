@@ -1,0 +1,9 @@
+selenium
+pytest
+pytest-bdd
+configparser
+allure-pytest
+
+
+#this contanins the depencied
+#run (pip3 install requirements.txt)
