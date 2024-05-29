@@ -38,7 +38,7 @@ class TestHomepage(BaseTestPage):
         homepage.add_add_details("Chethan", "gopal", "562106")
         homepage.click_continue()
 
-        time.sleep(20)
+
         act_title = "Thank you for your order!"
         if  title == act_title :
             assert True
