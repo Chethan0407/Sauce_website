@@ -8,6 +8,7 @@ import pytest
 import allure
 
 
+@pytest.mark.sanity
 class TestHomepage(BaseTestPage):
 
 
@@ -17,6 +18,7 @@ class TestHomepage(BaseTestPage):
         Uname, password = credentials
         login_page = LoginPage(driver)
         login_page.do_login(Uname, password)
+
 
     def test_add_to_cart_items(self, driver):
         homepage = Homepage(driver)

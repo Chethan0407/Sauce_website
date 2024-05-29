@@ -7,7 +7,7 @@ from Tests.BaseTest import BaseTestPage
 @pytest.mark.usefixtures("driver")
 
 class TestLogin(BaseTestPage):
-
+    @pytest.mark.sanity
     def test_login_page(self, driver, credentials):
         Uname, password = credentials
         loginpage = LoginPage(driver)
