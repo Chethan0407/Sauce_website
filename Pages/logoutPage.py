@@ -8,12 +8,9 @@ from selenium.webdriver.common.by import By
 from .basePage import BasePage
 
 
-
-
 class Logout(BasePage):
-    HAMBURGER_MENU = (By.ID, "react-burger-menu-btn" )
+    HAMBURGER_MENU = (By.ID, "react-burger-menu-btn")
     LOGOUT = (By.LINK_TEXT, 'Logout')
-
 
     def click_Ham_and_logout_button(self):
         self.click(self.HAMBURGER_MENU)

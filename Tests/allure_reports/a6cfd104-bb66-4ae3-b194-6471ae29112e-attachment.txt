@@ -1,0 +1,2 @@
+INFO     Utilities.logger_config:test_logout.py:17 Login started
+INFO     Utilities.logger_config:test_logout.py:25 logout completed

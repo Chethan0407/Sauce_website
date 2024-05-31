@@ -1,0 +1,2 @@
+2024-05-31 23:52:28,604 - INFO - Login functionality started
+2024-05-31 23:52:28,852 - INFO - Login functionality completed

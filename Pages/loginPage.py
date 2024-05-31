@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 
 from Utilities.read_config import read_configuration
@@ -15,20 +17,13 @@ class LoginPage(BasePage):
 
 
 
-    def do_login(self, Uname, password):
-        self.send_keys(self.USER_NAME, Uname)
+    def do_login(self, uname, password):
+        self.send_keys(self.USER_NAME, uname)
         self.send_keys(self.PASSWORD, password)
         self.click(self.LOGIN_CLICK)
         return Homepage(self.driver)
 
     def invalid_cred_message_verify(self):
         error_message_element = self.find_element(self.ERROR_MESSAGE)
+
         return error_message_element.text
-
-
-
-
-
-
-
-

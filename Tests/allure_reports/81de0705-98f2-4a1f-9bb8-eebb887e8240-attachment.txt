@@ -1,0 +1,1 @@
+[32mINFO    [0m Utilities.logger_config:test_logout.py:24 logout completed

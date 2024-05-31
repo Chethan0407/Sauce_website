@@ -3,6 +3,8 @@ pytest
 pytest-bdd
 configparser
 allure-pytest
+behave
+
 
 
 #this contanins the depencied
