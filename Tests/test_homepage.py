@@ -8,6 +8,7 @@ from Utilities.logger_config import configure_logger
 
 logger = configure_logger()
 
+
 @pytest.mark.sanity
 class TestHomepage(BaseTestPage):
 
@@ -22,9 +23,7 @@ class TestHomepage(BaseTestPage):
     def test_add_to_cart_items(self, driver):
         homepage = Homepage(driver)
         homepage.add_to_cart_1()
-        time.sleep(5)
         homepage.add_tocart_2()
-        time.sleep(5)
         homepage.click_on_cart()
         time.sleep(5)
         homepage.get_cart_items()

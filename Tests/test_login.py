@@ -1,5 +1,3 @@
-import time
-
 from Pages.loginPage import LoginPage
 import pytest
 
@@ -16,11 +14,10 @@ class TestLogin(BaseTestPage):
     def test_login_page(self, driver, credentials):
         # logger getting started
 
-        Uname, password = credentials
+        uname, password = credentials
         logger.info("Login functionality started")
         loginpage = LoginPage(driver)
-        loginpage.do_login(Uname, password)
-
+        loginpage.do_login(uname, password)
 
     @pytest.mark.sanity
     def test_logout(self, driver):
