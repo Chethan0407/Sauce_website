@@ -17,14 +17,14 @@ class BasePage:
         return WebDriverWait(self.driver, 10).until(ec.presence_of_all_elements_located(locator))
 
     def click(self, locator):
-        element = WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable(locator))
+        element = WebDriverWait(self.driver, 20).until(ec.element_to_be_clickable(locator))
         element.click()
 
     def clear(self, locator):
         self.find_elements(locator).clear()
 
     def send_keys(self, locator, text):
-        element = WebDriverWait(self.driver, 20).until(ec.element_to_be_clickable(locator))
+        element = WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable(locator))
         element.send_keys(text)
 
     def element_is_visible(self, locator):
