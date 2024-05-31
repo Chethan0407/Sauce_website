@@ -10,9 +10,10 @@ from Utilities.logger_config import configure_logger
 logger = configure_logger()
 
 
+@pytest.mark.sanity
 @pytest.mark.usefixtures("driver")
 class TestLogin(BaseTestPage):
-    @pytest.mark.sanity
+
     def test_login_page(self, driver, credentials):
         # logger getting started
 

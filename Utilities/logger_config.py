@@ -36,7 +36,7 @@ logger.addHandler(ch)
 
 
 def take_screenshots_on_failure(driver, failure_screenshots):
-    screenshot_dir = os.path.join(log_dir, 'screenshots')
+    screenshot_dir = os.path.join(log_dir, 'failed test_pagescreenshots')
     if not os.path.exists(screenshot_dir):
         os.makedirs(screenshot_dir)
 

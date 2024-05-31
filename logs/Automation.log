@@ -1,9 +1,11 @@
-24-01-06 03:25:57 AM - INFO - Negative test login started
-24-01-06 03:26:18 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/screenshots/test_login_page_2024-06-01_03-26-17.png
-24-01-06 03:26:18 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/screenshots/test_login_page_2024-06-01_03-26-17.png
-24-01-06 03:31:24 AM - INFO - Negative test login started
-24-01-06 03:31:24 AM - INFO - Homepage functionality started
-24-01-06 03:31:24 AM - INFO - Login functionality started
-24-01-06 03:31:30 AM - INFO - Home page automation has completed
-24-01-06 03:31:30 AM - INFO - logout completed
-24-01-06 03:31:34 AM - INFO - Negative tests login ended
+24-01-06 03:39:49 AM - INFO - Homepage functionality started
+24-01-06 03:39:50 AM - INFO - Negative test login started
+24-01-06 03:39:50 AM - INFO - Login functionality started
+24-01-06 03:39:55 AM - INFO - Home page automation has completed
+24-01-06 03:39:56 AM - INFO - logout completed
+24-01-06 03:40:00 AM - INFO - Negative tests login ended
+24-01-06 03:43:27 AM - INFO - Login functionality started
+24-01-06 03:43:33 AM - INFO - logout completed
+24-01-06 03:44:12 AM - INFO - Login functionality started
+24-01-06 03:44:32 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/failed test_pagescreenshots/test_login_page_2024-06-01_03-44-32.png
+24-01-06 03:44:32 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/failed test_pagescreenshots/test_login_page_2024-06-01_03-44-32.png

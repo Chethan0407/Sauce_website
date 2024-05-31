@@ -1,0 +1,2 @@
+INFO     Utilities.logger_config:test_homepage.py:19 Homepage functionality started
+INFO     Utilities.logger_config:test_homepage.py:47 Home page automation has completed
