@@ -2,6 +2,8 @@ import time
 
 from Pages.loginPage import LoginPage
 import pytest
+
+from Pages.logoutPage import Logout
 from Tests.BaseTest import BaseTestPage
 from Utilities.logger_config import configure_logger
 
@@ -18,5 +20,10 @@ class TestLogin(BaseTestPage):
         logger.info("Login functionality started")
         loginpage = LoginPage(driver)
         loginpage.do_login(Uname, password)
-        logger.info("Login functionality completed")
 
+
+    @pytest.mark.sanity
+    def test_logout(self, driver):
+        logout = Logout(driver)
+        logout.click_Ham_and_logout_button()
+        logger.info("logout completed")
