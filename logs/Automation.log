@@ -1,11 +1,57 @@
-24-01-06 03:39:49 AM - INFO - Homepage functionality started
-24-01-06 03:39:50 AM - INFO - Negative test login started
-24-01-06 03:39:50 AM - INFO - Login functionality started
-24-01-06 03:39:55 AM - INFO - Home page automation has completed
-24-01-06 03:39:56 AM - INFO - logout completed
-24-01-06 03:40:00 AM - INFO - Negative tests login ended
-24-01-06 03:43:27 AM - INFO - Login functionality started
-24-01-06 03:43:33 AM - INFO - logout completed
-24-01-06 03:44:12 AM - INFO - Login functionality started
-24-01-06 03:44:32 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/failed test_pagescreenshots/test_login_page_2024-06-01_03-44-32.png
-24-01-06 03:44:32 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/failed test_pagescreenshots/test_login_page_2024-06-01_03-44-32.png
+24-02-06 00:15:47 AM - INFO - Login functionality started
+24-02-06 00:15:47 AM - INFO - Negative test login started
+24-02-06 00:15:47 AM - INFO - Homepage functionality started
+24-02-06 00:15:53 AM - INFO - Home page automation has completed
+24-02-06 00:15:53 AM - INFO - logout completed
+24-02-06 00:15:58 AM - INFO - Negative tests login ended
+24-03-06 12:49:04 PM - INFO - Negative test login started
+24-03-06 12:49:05 PM - INFO - Homepage functionality started
+24-03-06 12:49:05 PM - INFO - Login functionality started
+24-03-06 12:49:11 PM - INFO - Home page automation has completed
+24-03-06 12:49:11 PM - INFO - logout completed
+24-03-06 12:49:14 PM - INFO - Negative tests login ended
+24-10-06 18:25:16 PM - INFO - Login functionality started
+24-10-06 18:25:22 PM - INFO - logout completed
+24-13-06 06:13:23 AM - INFO - Homepage functionality started
+24-13-06 06:13:24 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-13-24.png
+24-13-06 06:13:24 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-13-24.png
+24-13-06 06:18:56 AM - INFO - Homepage functionality started
+24-13-06 06:18:56 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-18-56.png
+24-13-06 06:18:56 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-18-56.png
+24-13-06 06:19:33 AM - INFO - Homepage functionality started
+24-13-06 06:19:54 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-19-53.png
+24-13-06 06:19:54 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-19-53.png
+24-13-06 06:21:19 AM - INFO - Homepage functionality started
+24-13-06 06:21:25 AM - INFO - Home page automation has completed
+24-13-06 06:23:26 AM - INFO - Homepage functionality started
+24-13-06 06:23:27 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-23-27.png
+24-13-06 06:23:27 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-23-27.png
+24-13-06 06:23:42 AM - INFO - Homepage functionality started
+24-13-06 06:23:42 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-23-42.png
+24-13-06 06:23:42 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-23-42.png
+24-13-06 06:23:58 AM - INFO - Homepage functionality started
+24-13-06 06:24:19 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-24-19.png
+24-13-06 06:24:19 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-24-19.png
+24-13-06 06:25:56 AM - INFO - Homepage functionality started
+24-13-06 06:26:16 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-26-16.png
+24-13-06 06:26:16 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-26-16.png
+24-13-06 06:28:20 AM - INFO - Homepage functionality started
+24-13-06 06:28:45 AM - INFO - Homepage functionality started
+24-13-06 06:28:49 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-28-48.png
+24-13-06 06:28:49 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-28-48.png
+24-13-06 06:29:24 AM - INFO - Homepage functionality started
+24-13-06 06:29:25 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-29-25.png
+24-13-06 06:29:25 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-29-25.png
+24-13-06 06:31:56 AM - INFO - Homepage functionality started
+24-13-06 06:33:20 AM - INFO - Homepage functionality started
+24-13-06 06:33:21 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-33-21.png
+24-13-06 06:33:21 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-33-21.png
+24-13-06 06:35:15 AM - INFO - Homepage functionality started
+24-13-06 06:35:42 AM - INFO - Home page automation has completed
+24-13-06 06:36:02 AM - INFO - Homepage functionality started
+24-13-06 06:36:39 AM - INFO - Homepage functionality started
+24-13-06 06:36:39 AM - INFO - Login functionality started
+24-13-06 06:36:39 AM - INFO - Negative test login started
+24-13-06 06:36:45 AM - INFO - logout completed
+24-13-06 06:36:50 AM - INFO - Negative tests login ended
+24-13-06 06:37:06 AM - INFO - Home page automation has completed

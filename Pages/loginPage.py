@@ -1,5 +1,3 @@
-import time
-
 from selenium.webdriver.common.by import By
 
 from Utilities.read_config import read_configuration
@@ -12,10 +10,8 @@ class LoginPage(BasePage):
     password = read_configuration('Default', 'Password')
     USER_NAME = (By.ID, 'user-name')
     PASSWORD = (By.ID, 'password')
-    LOGIN_CLICK = (By.ID, 'login-butto')
+    LOGIN_CLICK = (By.ID, 'login-button')
     ERROR_MESSAGE = (By.CSS_SELECTOR, 'h3[data-test="error"]')
-
-
 
     def do_login(self, uname, password):
         self.send_keys(self.USER_NAME, uname)

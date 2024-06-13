@@ -1,9 +1,12 @@
+import time
+
+
 from selenium.webdriver.common.by import By
 from .basePage import BasePage
+import re
 
 
 class Homepage(BasePage):
-
     ADD_TO_CART = (By.ID, "add-to-cart-sauce-labs-backpack")
     ADD_TO_CART2 = (By.ID, "add-to-cart-sauce-labs-bolt-t-shirt")
     CLICK_ON_CART = (By.ID, "shopping_cart_container")
@@ -15,6 +18,35 @@ class Homepage(BasePage):
     ZIP = (By.ID, "postal-code")
     CONTINUE = (By.ID, "continue")
     FINISH_BUTTON = (By.ID, "finish")
+    FILTER_BUTTON = (By.CSS_SELECTOR, 'select.product_sort_container[data-test="product-sort-container"]')
+    LOW_TO_HIGH = (By.XPATH, "//select[@class='product_sort_container']/option[3]")
+    HOMEPAGE_ASSERTS = (By.CLASS_NAME, "inventory_item")
+
+    def check_filter(self):
+        self.click(self.FILTER_BUTTON)
+        self.click(self.LOW_TO_HIGH)
+        time.sleep(1)
+        products = self.find_elements(self.HOMEPAGE_ASSERTS)
+        assert len(products) >= 2, "Expected at least two products to be displayed"
+        first_product_price = self.extract_price_from_element(products[0])
+        second_product_price = self.extract_price_from_element(products[1])
+
+        # Compare prices
+        assert first_product_price < second_product_price, (
+            f"Expected first product price (${first_product_price}) "
+            f"to be lower than second product price (${second_product_price})"
+        )
+
+        print("Assertion passed: First product price is lower than the second one.")
+
+    def extract_price_from_element(self, product_element):
+        product_text = product_element.text
+        price_str = re.search(r'\$\d+\.\d{2}', product_text)
+        if price_str:
+            return float(price_str.group(0).strip('$'))
+        else:
+            raise ValueError(f"Price not found or invalid format in element text: {product_text}")
+
 
 
     def add_to_cart_1(self):
@@ -41,14 +73,3 @@ class Homepage(BasePage):
     def click_continue(self):
         self.click(self.CONTINUE)
         self.click(self.FINISH_BUTTON)
-
-
-
-
-
-
-
-
-
-
-

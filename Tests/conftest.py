@@ -34,10 +34,13 @@ def driver(request, browser):
 
 
     driver.get(base_url)
+    driver.refresh()
     driver.maximize_window()
     request.cls.driver = driver
     yield driver
     driver.quit()
+
+
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):

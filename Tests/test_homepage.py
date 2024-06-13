@@ -22,6 +22,8 @@ class TestHomepage(BaseTestPage):
 
     def test_add_to_cart_items(self, driver):
         homepage = Homepage(driver)
+        homepage.check_filter()
+        time.sleep(20)
         homepage.add_to_cart_1()
         homepage.add_tocart_2()
         homepage.click_on_cart()
