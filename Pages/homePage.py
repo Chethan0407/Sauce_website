@@ -1,6 +1,3 @@
-import time
-
-
 from selenium.webdriver.common.by import By
 from .basePage import BasePage
 import re
@@ -25,10 +22,11 @@ class Homepage(BasePage):
     def check_filter(self):
         self.click(self.FILTER_BUTTON)
         self.click(self.LOW_TO_HIGH)
-        time.sleep(1)
         products = self.find_elements(self.HOMEPAGE_ASSERTS)
-        assert len(products) >= 2, "Expected at least two products to be displayed"
+        assert len(products) >= 2, "ecpect at least two products to be displayed"
+
         first_product_price = self.extract_price_from_element(products[0])
+        # Store first product price as an attribute
         second_product_price = self.extract_price_from_element(products[1])
 
         # Compare prices
@@ -39,7 +37,8 @@ class Homepage(BasePage):
 
         print("Assertion passed: First product price is lower than the second one.")
 
-    def extract_price_from_element(self, product_element):
+    @classmethod
+    def extract_price_from_element(cls, product_element):
         product_text = product_element.text
         price_str = re.search(r'\$\d+\.\d{2}', product_text)
         if price_str:
@@ -47,12 +46,10 @@ class Homepage(BasePage):
         else:
             raise ValueError(f"Price not found or invalid format in element text: {product_text}")
 
-
-
     def add_to_cart_1(self):
         self.click(self.ADD_TO_CART)
 
-    def add_tocart_2(self):
+    def add_to_cart2(self):
         self.click(self.ADD_TO_CART2)
 
     def click_on_cart(self):

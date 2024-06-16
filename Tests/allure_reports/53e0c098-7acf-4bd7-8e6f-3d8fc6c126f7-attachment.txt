@@ -1,1 +1,0 @@
-enter valid browser should be chrome or firefox

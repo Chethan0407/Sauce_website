@@ -1,3 +1,0 @@
-24-01-06 03:04:07 AM - INFO - Login functionality started
-24-01-06 03:04:28 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/screenshots/test_login_page_2024-06-01_03-04-28.png
-24-01-06 03:04:28 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/screenshots/test_login_page_2024-06-01_03-04-28.png

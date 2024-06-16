@@ -1,2 +1,0 @@
-24-02-06 00:13:40 AM - INFO - Homepage functionality started
-24-02-06 00:13:45 AM - INFO - Home page automation has completed

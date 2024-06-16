@@ -1,3 +1,0 @@
-24-01-06 03:19:00 AM - INFO - Negative test login started
-24-01-06 03:19:21 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/screenshots/test_login_page_2024-06-01_03-19-21.png
-24-01-06 03:19:21 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/screenshots/test_login_page_2024-06-01_03-19-21.png

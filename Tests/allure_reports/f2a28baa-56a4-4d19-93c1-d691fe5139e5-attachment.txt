@@ -1,3 +1,0 @@
-24-13-06 06:18:56 AM - INFO - Homepage functionality started
-24-13-06 06:18:56 AM - INFO - screenshot_saved: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-18-56.png
-24-13-06 06:18:56 AM - INFO - Screenshot captured on failure: /Users/chethangopal/Desktop/SwagSuace/logs/FailedTest_PageScreenshots/test_add_to_cart_items_2024-06-13_06-18-56.png

@@ -1,0 +1,3 @@
+Current Window Handle: 1435E7D840FEA39139B63C9128A485C8
+Assertion passed: First product price is lower than the second one.
+not true

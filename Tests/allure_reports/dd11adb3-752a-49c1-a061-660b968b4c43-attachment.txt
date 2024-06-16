@@ -1,2 +1,0 @@
-[32mINFO    [0m Utilities.logger_config:test_homepage.py:22 Home page automation has started
-[32mINFO    [0m Utilities.logger_config:test_homepage.py:48 Home page automation has completed

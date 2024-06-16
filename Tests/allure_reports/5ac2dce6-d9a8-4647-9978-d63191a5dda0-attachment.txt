@@ -1,2 +1,0 @@
-24-01-06 02:38:35 AM - INFO - Negative test login started
-24-01-06 02:38:45 AM - INFO - Negative tests login ended

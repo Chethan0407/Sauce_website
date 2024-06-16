@@ -1,2 +1,0 @@
-Assertion passed: First product price is lower than the second one.
-not true

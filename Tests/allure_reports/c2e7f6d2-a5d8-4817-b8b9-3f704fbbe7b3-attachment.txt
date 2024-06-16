@@ -1,2 +1,0 @@
-24-01-06 02:38:04 AM - INFO - Login functionality started
-24-01-06 02:38:10 AM - INFO - logout completed

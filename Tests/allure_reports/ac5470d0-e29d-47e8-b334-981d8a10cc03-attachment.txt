@@ -1,2 +1,0 @@
-[32mINFO    [0m Utilities.logger_config:test_login.py:19 login has started
-[32mINFO    [0m Utilities.logger_config:test_login.py:22 Login functionality completed

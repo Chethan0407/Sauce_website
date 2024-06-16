@@ -1,4 +1,3 @@
-import time
 from turtle import title
 from Tests.BaseTest import BaseTestPage
 from Pages.loginPage import LoginPage
@@ -23,12 +22,16 @@ class TestHomepage(BaseTestPage):
     def test_add_to_cart_items(self, driver):
         homepage = Homepage(driver)
         homepage.check_filter()
-        time.sleep(20)
+        # Retrieve products from Homepage after filter
+
+        # Add first product to cart
         homepage.add_to_cart_1()
-        homepage.add_tocart_2()
+        homepage.add_to_cart2()
+
         homepage.click_on_cart()
-        time.sleep(5)
+
         homepage.get_cart_items()
+
         expected_count = 2
         try:
             actual_count = homepage.get_cart_items()

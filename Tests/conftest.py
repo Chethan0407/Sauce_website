@@ -4,8 +4,6 @@ from Utilities.logger_config import take_screenshots_on_failure, logger
 import pytest
 from selenium import webdriver
 
-
-
 config = configparser.ConfigParser()
 config.read('config.ini')
 
@@ -24,6 +22,9 @@ def driver(request, browser):
     base_url = read_configuration('Default', 'BaseUrl')
     if browser == "chrome":
         driver = webdriver.Chrome()
+        window_handle = driver.current_window_handle
+        print(f"Current Window Handle: {window_handle}")
+
     elif browser == "firefox":
         driver = webdriver.Firefox()
     elif browser == "safari":
@@ -31,7 +32,6 @@ def driver(request, browser):
 
     else:
         raise print("enter valid browser should be chrome or firefox")
-
 
     driver.get(base_url)
     driver.refresh()
@@ -41,9 +41,8 @@ def driver(request, browser):
     driver.quit()
 
 
-
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
-def pytest_runtest_makereport(item, call):
+def pytest_runtest_makereport(item):
     """
     Pytest hook to take screenshot on test failure.
     """

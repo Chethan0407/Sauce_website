@@ -1,2 +1,0 @@
-INFO     Utilities.logger_config:test_negative_login.py:21 Negative test login started
-INFO     Utilities.logger_config:test_negative_login.py:34 Negative tests login ended
